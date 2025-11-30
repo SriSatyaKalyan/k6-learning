@@ -10,6 +10,6 @@ export const options = {
 };
 
 export default function () {
-	http.get("");
+	http.get("http://localhost:8000/public/crocodiles");
 	sleep(0);
 }
